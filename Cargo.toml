@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 hyper = { version = "0.14", features = ["full"] }
-tokio = { version = "1", features = ["full"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 structopt = "0.3.21"
 compound-error = "0.1.2"
 log = "0.4"
